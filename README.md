@@ -8,5 +8,5 @@ Electronic energies for all density functionals available with DFT-D4.
 To create a result script with the missing dispersion energies the raw data files can be processed using the provided *awk* script:
 
 ```
-awk -F, -f scripts/res.awk ref.csv data/cam-qtp-01.csv
+awk -F, -f scripts/res.awk ref.csv data/$func.csv
 ```
